@@ -51,7 +51,7 @@
                             echo '<tr>
                                 <td>'.$no.'</td>
                                 <td>'.$row['nama'].'</td>
-                                <td class"aksi">
+                                <td>
                                     <a href="kategori_edit.php?id='.$row['id'].'"><button class="button">Edit</button></a>
                                     <a href="kategori.php?hapus='.$row['id'].'" onclick="return confirm(\'Yakin hapus?\')"><button class="button">Hapus</button></a>
                                 </td>
