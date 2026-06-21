@@ -11,7 +11,7 @@
             $error = "Email sudah terdaftar!";
         }else{
             $member->create($nama, $email, $password);
-            header('location: ../user/login.php?register=success');
+            header('location: /perpustakaan/user/login.php?register=success');
         }
     }
 ?>

@@ -35,7 +35,7 @@
 
         <div class="admin-container">
             <h1>Kelola Buku</h1>
-            <a href="buku_tambah.php"><button class="button">+ Tambah Buku</button></a>
+            <a href="buku_tambah.php"><button class="button">Tambah Buku</button></a>
             <br><br>
             <table>
                 <thead>

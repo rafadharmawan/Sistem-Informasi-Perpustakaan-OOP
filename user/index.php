@@ -40,7 +40,7 @@
 
             <form method="GET">
                 <select class="input" name="id_kategori">
-                    <option value="">-- Semua Kategori --</option>
+                    <option value=""> Semua Kategori </option>
                     <?php while($kat = $dataKategori->fetch_assoc()){ ?>
                         <option value="<?= $kat['id']; ?>" <?php echo ($idkategori == $kat['id']) ? 'selected' : ''; ?>>
                             <?= $kat['nama']; ?>
