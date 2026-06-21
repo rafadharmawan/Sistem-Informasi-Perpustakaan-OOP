@@ -96,7 +96,7 @@ a:hover {
   color: var(--primary-dark);
 }
 
-/* STAT CARD */
+
 .stat-card {
   display: inline-block;
   background-color: var(--surface);

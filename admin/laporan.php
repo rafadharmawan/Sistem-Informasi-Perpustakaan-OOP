@@ -46,7 +46,7 @@
             <br><br>
             <form method="GET">
                 <select class="input" name="status">
-                    <option value="">-- Semua Status --</option>
+                    <option value="">Semua Status</option>
                     <option value="dipinjam" <?php echo ($status == 'dipinjam') ? 'selected' : ''; ?>>Dipinjam</option>
                     <option value="dikembalikan" <?php echo ($status == 'dikembalikan') ? 'selected' : ''; ?>>Dikembalikan</option>
                 </select>
